@@ -28,9 +28,9 @@ public class MetaCanvas : MonoBehaviour
         Topic.text = text;
     }
 
-    public void SetDate(System.DateTime date)
+    public void SetDate(string date)
     {
-        Date.text = date.ToShortDateString();
+        Date.text = date;
     }
 
     public void SetMetaData(List<string> data)

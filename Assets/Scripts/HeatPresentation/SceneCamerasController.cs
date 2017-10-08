@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class CamerasController : MonoBehaviour
+public class SceneCamerasController : MonoBehaviour
 {
     public Transform OrbitCamera;
     public Transform DetailCameras;

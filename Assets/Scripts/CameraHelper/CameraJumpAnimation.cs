@@ -16,9 +16,7 @@ public class CameraJumpAnimation : MonoBehaviour
     private void OnEnable()
     {
         transform.position = _originPosition;
-        //transform.rotation = Quaternion.Euler(_originPosition);
 
         transform.DOMove(Source.position, 0.3f).From();
-        //transform.DOLookAt(_originPosition, 0.3f);
     }
 }
